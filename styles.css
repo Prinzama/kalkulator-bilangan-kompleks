@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    background: linear-gradient(90deg, rgba(51, 51, 51, 1) 0%, rgba(51, 51, 51, 0.7) 97%);
+    color: #fff;
+    padding: 200px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #333;
+}
+
+#argandCanvas {
+    border: 5px solid rgb(0, 0, 0); /* Menetapkan border dengan ketebalan 2px dan warna hitam */
+}
+
+#argandContainer {
+    width: 500px;   /* lebar kontainer*/
+    height: 500px;  /* Tinggi kontainer */
+    overflow-x: auto; /* Scroll horizontal */
+    overflow-y: auto; /* Scroll vertikal */
+    border: 2px solid rgb(0, 0, 0); /* Border untuk kanvas */
+    margin-bottom: 20px; /* Jarak antara kanvas dan tombol */
+}
+#argandCanvas {
+    width: 200%; /* Lebar kanvas */
+    height: 200%; /* Tinggi kanvas */
+    border: 1px;
+    overflow-x: auto; /* Scroll horizontal */
+    overflow-y: auto; /* Scroll vertikal */
+}
+
+ 
